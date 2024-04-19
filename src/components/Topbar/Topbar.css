@@ -1,0 +1,40 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.topbar-items {
+    width: 900px;
+    overflow: hidden;
+}
+ 
+.topbar-items ul {
+    display: flex;
+    list-style-type: none;
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+    
+.topbar-items li {
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s; 
+}
+    
+.logo {
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+    padding:10px;
+}
+
+.add-button {
+    background-color: #555;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

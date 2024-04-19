@@ -1,0 +1,12 @@
+.recordContainer {
+    flex: 1; /* Fill remaining space */
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+}
+    
+    /* Styling for list items */
+.list-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

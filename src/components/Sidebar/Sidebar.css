@@ -1,0 +1,10 @@
+.sidebar {
+    flex: 0 0 80px; /* Fixed width for sidebar */
+    background-color: #ddd;
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+}
+
+.sidebar li{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+} 
